@@ -7,3 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+Created artisan command to scrap the data " php artisan web:run"
+
+To automate as your prefered time table just add your customised  
+
+* * * * * php /path-to-your-project/artisan web:run >> /dev/null 2>&1
+
+code to your crontab
